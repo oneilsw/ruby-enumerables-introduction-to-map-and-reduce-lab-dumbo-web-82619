@@ -39,5 +39,6 @@ def reduce_to_total(array,start_point=0)
 end
 
 def reduce_to_all_true(array)
-  
+  if array
+    return true
 end 
