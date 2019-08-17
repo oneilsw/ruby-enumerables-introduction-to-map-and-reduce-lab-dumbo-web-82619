@@ -41,7 +41,7 @@ end
 def reduce_to_all_true(array)
   if array
     return true
-  else
-    return false 
+  #else
+   # return false 
   end  
 end 
