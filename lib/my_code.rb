@@ -31,10 +31,10 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array,start_point)
-  while start_point == 
-  
-  return array.sum
-  
-  
+  while start_point == nil 
+    return array.sum
+  else
+    return array.sum +start_point
+  end   
 end
 
