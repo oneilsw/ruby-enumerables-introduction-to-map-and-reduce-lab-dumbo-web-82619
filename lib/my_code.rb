@@ -39,7 +39,7 @@ def reduce_to_total(array,start_point=0)
 end
 
 def reduce_to_all_true(array)
-  if array 
+  while array 
     return true
   else
     return false
