@@ -38,6 +38,10 @@ def reduce_to_total(array,start_point=0)
   end   
 end
 
-def reduce_to_all_true
-  
+def reduce_to_all_true(array)
+  if #everything true 
+    return true
+  else
+    return false
+  end
 end
