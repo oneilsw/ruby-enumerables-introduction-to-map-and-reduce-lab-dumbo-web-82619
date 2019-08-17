@@ -31,7 +31,12 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array)
-  
+  #add first element to second and so on 
+  i = 0
+  while i < array.length
+   array[i] += array[i+1]
+   i += 1
+  end
 end
 
 #def reduce_to_total(array,starting_point)
