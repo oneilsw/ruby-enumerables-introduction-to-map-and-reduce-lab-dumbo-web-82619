@@ -33,7 +33,7 @@ end
 def reduce_to_total(array,start_point=0)
   if start_point.nil?
     return array.sum
-  else
+  else 
     return array.sum + start_point
   end   
 end
