@@ -34,7 +34,6 @@ def reduce_to_total(array)
   return array.sum
 end
 
-#def reduce_to_total(array,starting_point)
- # i=0
-  #while 
-#end
+def reduce_to_total(array,starting_point)
+  return array.sum + starting_point
+end
