@@ -30,7 +30,7 @@ def map_to_square(array)
   array 
 end
 
-def reduce_to_total(array,start_point)
+def reduce_to_total(array,start_point=0)
   if start_point.nil?
     return array.sum
   else
