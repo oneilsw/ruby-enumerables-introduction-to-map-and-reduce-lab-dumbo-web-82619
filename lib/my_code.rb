@@ -34,7 +34,7 @@ def reduce_to_total(array,start_point)
   if start_point == nil 
     return array.sum
   else
-    return array.sum +start_point
+    return array.sum + start_point
   end   
 end
 
